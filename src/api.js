@@ -1,6 +1,6 @@
 // Change this if your backend runs somewhere other than localhost:8000
 // (e.g. after deploying, point this at your Render/Railway URL)
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://agroscan-backend-odix.onrender.com";
 
 export async function predictDisease(file) {
   const formData = new FormData();
